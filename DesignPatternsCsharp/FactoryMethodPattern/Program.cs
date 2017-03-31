@@ -6,6 +6,9 @@ namespace FactoryMethodPattern
     {
         static void Main(string[] args)
         {
+            // Le but du pattern Factory Method est d'introduire une methode abstraite
+            // de creation d'un objet en reportant aux sous-classes concretes la creation 
+            // effective.
 
             Client client;
             client = new ClientComptant();
