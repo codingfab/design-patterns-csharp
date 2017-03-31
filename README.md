@@ -1,2 +1,2 @@
-# patterns-abstract-factory
-Application of the abstract factory pattern for an example.
+# design-patterns-csharp
+Main design patterns used in C# with examples.
