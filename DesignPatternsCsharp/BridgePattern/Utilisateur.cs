@@ -2,6 +2,12 @@
 
 namespace BridgePattern
 {
+    // Le but du pattern Bridge est de separer l'aspect d'implantation d'un objet de son
+    // aspect de representation et d'interface.
+    // Ainsi, d'une part l'implantation peut etre totalement encapsulee et d'autre part
+    // l'implantation et la representation peuvent evoluer independamment et sans que
+    // l'une exerce une contrainte sur l'autre.
+
     class Utilisateur
     {
         // Les numeros de plaques introduits sont 2345X et CS666FS
